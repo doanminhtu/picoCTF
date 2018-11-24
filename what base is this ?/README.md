@@ -26,7 +26,8 @@ There are many tools decoding this online and easy to use but I wanna do it myse
 ```
 node decode2str.js <base> <string>
 ```
-Base here is 2,8,16
+Base here is 2,8 or 16
+
 Example: 
 ```
 node decode2str.js 2 "01110010 01101111 01100010 01101111 01110100"
