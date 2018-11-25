@@ -41,7 +41,7 @@ Open the Postman app
 -Fill in the url *http://2018shell.picoctf.com:18342/button2.php*
 -Click **Send**
 
-![Result_postman](https://imgur.com/3XqfXh9)
+![Postman_result](https://i.imgur.com/3XqfXh9.png)
 
 Here we come the result:
 >picoCTF{button_button_whose_got_the_button_25a99f84}
