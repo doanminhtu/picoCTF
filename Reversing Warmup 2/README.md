@@ -29,7 +29,7 @@ node base64toASCII.js <base64_string>
 ```
 
 Example
-```node base64toASCII.js "dGg0dF93NHNfczFtcEwz" ```
+```node base64tostr.js "dGg0dF93NHNfczFtcEwz" ```
 
 Output
 ```Result: th4t_w4s_s1mpL3```

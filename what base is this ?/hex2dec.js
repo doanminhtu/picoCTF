@@ -8,7 +8,6 @@ module.exports ={
         var i=0;    
         for (;i < input.length;i++){
             const a=input[i];
-            
             const key = hexStr.indexOf(a);
             output = (output << 4) + key;
         }
