@@ -29,7 +29,10 @@ node base64toASCII.js <base64_string>
 ```
 
 Example
-```node base64toASCII.js "TWFu" ```
+```node base64toASCII.js "dGg0dF93NHNfczFtcEwz" ```
 
 Output
-```Result: Man```
+```Result: th4t_w4s_s1mpL3```
+
+Answer
+>picoCTF{th4t_w4s_s1mpL3} 
