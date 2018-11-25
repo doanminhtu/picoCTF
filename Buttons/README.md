@@ -37,8 +37,11 @@ Then press it and see what we can find in the 2nd page:
 We can observe from the code that when we push the 1st button, the client will send a **POST** request to sever. BUt not like it, button2 sends a **GET** request then we get a respones "Button2: ACCESS DENIED". So we are expect to send a POST request too for the button2. 
 
 Open the Postman app
+
 -Select method **POST**
+
 -Fill in the url *http://2018shell.picoctf.com:18342/button2.php*
+
 -Click **Send**
 
 ![Postman_result](https://i.imgur.com/3XqfXh9.png)
