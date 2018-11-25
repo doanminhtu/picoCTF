@@ -3,8 +3,6 @@
 */
 
 const [_, __, input] = process.argv
-const rot1 = "ABCDEFGHIJKLM";
-const rot2 = "NOPQRSTUVWXYZ";
 
 console.log("Result: ", rot13trans(input))
 
