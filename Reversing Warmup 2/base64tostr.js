@@ -1,20 +1,22 @@
-// execute example: node base64toASCII.js "dGg0" 
-const [first, second, input] = process.argv;
+// execute example: node base64toASCII.js "TWFu" 
+const [_, __, input] = process.argv;
 
 const base64Str="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
 console.log("Result: ", decodeB64(input));
 
 function decodeB64 (input) {
-    if (input.length % 4 != 0) {
+
+    if (input.length % 4 != 0) { //check if this input has enough chars or not
         return "";
     }
+
     var result = "";
     var i=0;
 
     //check input valid or not
-    var base64test = /[^A-Za-z0-9\+\/\=]/g;
-    if (base64test.exec(input)) {
+    var base64check = /[^A-Za-z0-9\+\/\=]/g;
+    if (base64check.exec(input)) {
          console.log("Invalid Input: some characters are not from A-Z, a-z, 0-9, +, / or =")
          return "";
     }
