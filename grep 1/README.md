@@ -12,7 +12,7 @@
 
 Read the given tutorial above and we can find what is grep.
 
-Let's start with find a sentence contain 'picoCTF'
+Let's start with finding a sentence that contains our flag 'picoCTF'
 
 ```
 tumdoan$ egrep 'picoCTF' file
