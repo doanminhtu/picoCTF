@@ -21,4 +21,3 @@ function rot13trans (input) {
     }
     return result;
 }
-
