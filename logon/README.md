@@ -14,6 +14,6 @@ open Console tab in Deverloper Tools (F12)
 document.cookie="admin=True";
 ```
 
-Enter, then refresh the page. We got the flag
+Enter, then refresh the page. We got the flag:
 
 > picoCTF{l0g1ns_ar3nt_r34l_a280e12c}
